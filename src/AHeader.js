@@ -1,3 +1,4 @@
+import logo from './Aneetha.png'; // Tell Webpack this JS file uses this image
 
 import React from "react";
 import "./AHeader.css";
@@ -10,7 +11,7 @@ function AHeader() {
       
         <img
           className="header__logo"
-          src={require('./Aneetha.png')}
+          src={logo}
         />
       
 
