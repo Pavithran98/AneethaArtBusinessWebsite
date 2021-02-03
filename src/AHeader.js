@@ -34,14 +34,6 @@ function AHeader() {
             <span className="header__optionLineTwo">& Orders</span>
           </div>
         
-        
-
-        <div className="header__option">
-          <span className="header__optionLineOne">Your</span>
-          <span className="header__optionLineTwo">Prime</span>
-        </div>
-
-        
           <div className="header__optionBasket">
             <ShoppingBasketIcon />
             <span className="header__optionLineTwo header__basketCount">
